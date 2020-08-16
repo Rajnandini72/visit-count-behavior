@@ -11,6 +11,10 @@ graph TD
   B -->|Aggregate| C[Report]
 ```
 
+Diagram not visible? Use the
+[Mermaid live viewer](https://mermaid-js.github.io/mermaid-live-editor)
+or use a [VScode plug-in](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
 The sensor could be one of:
 
 - foot-fall counter at the door
