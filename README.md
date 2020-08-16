@@ -1,12 +1,26 @@
-# Calculate Behavior
+# Visit-counter Behavior
 
-This project works out five features of a calculator:
+This project works out the features of a
+visit-counting software, called the 'Visit-counter'.
 
-1. Addition
-1. Multiplication
-1. Division
-1. Subtraction
-1. Power-on and power-off
+Here's the context in which the Visit-counter works:
+
+```mermaid
+graph TD
+  A[Sensor] -->|Entry| B(Visit-counter)
+  B -->|Aggregate| C[Report]
+```
+
+The sensor could be one of:
+
+- foot-fall counter at the door
+- entry-card issuer
+- hospital staff attendance system
+
+State the features of the visit-counter for the following stakeholders:
+
+- Facilities manager (manages seating and parking)
+- Director (ensures availability of beds and nursing staff)
 
 Each feature would consist of scenarios.
 Capture each scenario as:
@@ -15,7 +29,6 @@ Capture each scenario as:
 - event (When...)
 - effect (Then...)
 
-Each feature is in a different markdown file.
-This template has blank starting points for each.
+Place features given to each stakeholder in a different file.
 
 As always, avoid passive voice :)
