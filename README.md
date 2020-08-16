@@ -11,16 +11,17 @@ graph TD
   B -->|Aggregate| C[Report]
 ```
 
-Diagram not visible? Use the
+_Diagram not visible? Use the
 [Mermaid live viewer](https://mermaid-js.github.io/mermaid-live-editor)
-or use a [VScode plug-in](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+or use a [VScode plug-in](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)_
 
-The sensor could be one of:
+The **Sensor** could be one of:
 
 - foot-fall counter at the door
 - entry-card issuer
 - hospital staff attendance system
 
+The **Report** caters to the needs of specific stakeholders.
 State the features of the visit-counter for the following stakeholders:
 
 - Facilities manager (manages seating and parking)
@@ -33,6 +34,6 @@ Capture each scenario as:
 - event (When...)
 - effect (Then...)
 
-Place features given to each stakeholder in a different file.
+Place features given to each stakeholder in the corresponding file.
 
 As always, avoid passive voice :)
